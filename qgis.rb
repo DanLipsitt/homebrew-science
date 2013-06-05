@@ -25,6 +25,7 @@ class Qgis < Formula
   depends_on 'cmake' => :build
   depends_on PyQtImportable
 
+  depends_on :python
   depends_on 'gsl'
   depends_on 'pyqt'
   depends_on 'qwt'
